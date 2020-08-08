@@ -79,7 +79,7 @@ async def main():
         await q.put(None)
     print("None...")
 
-    # 等待所有协程执行完毕
+    # 等待所有协程执行完毕 
     await workers
     print("over")
 
